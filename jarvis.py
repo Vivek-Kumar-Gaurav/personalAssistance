@@ -112,7 +112,9 @@ if __name__ == "__main__":
                 print(e)
                 speak("Sorry my friend. I am not able to send this email")
 
-
+        elif 'exit' in query or 'quit' in query or 'stop' in query:
+            speak("Goodbye! Have a nice day.")
+            break  # Exit the loop
 
 
     # set Reminders (takes)
